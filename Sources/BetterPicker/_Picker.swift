@@ -13,7 +13,7 @@ public enum _Tag {
 }
 
 public struct _Picker<Label: View, Content: View, SelectionValue: Hashable>: View {
-  private typealias Configuration = _PickerStyleConfiguration<AnyHashable>
+  public typealias Configuration = _PickerStyleConfiguration<AnyHashable>
 
   @Binding
   private var selection: AnyHashable
