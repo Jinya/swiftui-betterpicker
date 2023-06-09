@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "swiftui-betterpicker",
+    name: "BetterPicker",
     platforms: [.iOS(.v13), .macOS(.v10_15), .tvOS(.v13), .watchOS(.v6)],
     products: [
         .library(
             name: "BetterPicker",
-            targets: ["swiftui-betterpicker"]),
+            targets: ["BetterPicker"]),
     ],
     targets: [
         .target(
-            name: "swiftui-betterpicker",
+            name: "BetterPicker",
             dependencies: []),
     ]
 )
